@@ -35,6 +35,21 @@ main form section{
     flex-direction:column;
 }
 
-.form-control{
-    
+form .form-control{
+    margin:0.4rem 0;
+}
+
+form .form-control label{
+    display:block;
+    font-size:0.8rem;
+}
+
+form .form-control label.inline{
+    display:inline;
+}
+
+form .btn{
+    background-color: #4cd137;
+    font-size:1.7rem;
+    border-radius:4px;
 }
